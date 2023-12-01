@@ -15,7 +15,7 @@ public class Rayo : MonoBehaviour
 
     void RaycastTest()
     {
-        Ray ray =Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
         if(Physics.Raycast(ray, out hit, Mathf.Infinity))
